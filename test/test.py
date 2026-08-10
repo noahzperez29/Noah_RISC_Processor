@@ -10,7 +10,7 @@ async def read_debug_pc(dut):
     pc = 0
     for byte_index in range(4):
         dut.ui_in.value = byte_index
-        await Timer(1, unit="ns")
+        await Timer(5, unit="ns")
         pc |= (int(dut.uo_out.value) & 0xFF) << (byte_index * 8)
     return pc
 
