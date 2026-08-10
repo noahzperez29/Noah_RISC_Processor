@@ -13,4 +13,4 @@ control unit, and separate instruction/data memories. Verified instructions incl
 lw, sw, sub, and beq. Since the chip only exposes 8 input and 8 output pins, the internal 32-bit
 program counter is exposed externally through a byte-select multiplexer, allowing it to be
 reconstructed one byte at a time to confirm the core is fetching and executing correctly.
-EOF
+
