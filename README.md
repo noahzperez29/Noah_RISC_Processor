@@ -1,8 +1,5 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg) ![](../../workflows/test/badge.svg) ![](../../workflows/fpga/badge.svg)
 
-cat > ~/my_designs/Noah_RISC_Processor/README.md << 'EOF'
-Single-Cycle RV32I RISC-V Core
-
 
 Objective
 I designed a single-cycle RISC-V processor core implementing a subset of the RV32I instruction set,
