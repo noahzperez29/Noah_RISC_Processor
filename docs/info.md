@@ -44,5 +44,4 @@ and `blt`-style branches are not yet functionally correct in this revision.
 
 ## External hardware
 
-No external hardware is required. All inputs and outputs can be driven and observed directly through
-the Tiny Tapeout demo board's onboard RP2040 microcontroller.
+No external hardware is required.
