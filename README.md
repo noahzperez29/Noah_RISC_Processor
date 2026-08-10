@@ -3,9 +3,7 @@
 # RISC Processor Project
 
 ### **Objective**
-I designed a single-cycle RISC-V processor core implementing a subset of the RV32I instruction set,
-and took it through the full RTL-to-GDSII flow for fabrication on real silicon through Tiny Tapeout's
-SKY26c shuttle, using the SkyWater 130nm open-source PDK.
+I designed a single-cycle RISC-V processor core implementing a subset of the RV32I instruction set.
 
 ### **Logic**
 The core fetches, decodes, and executes one instruction per clock cycle, using a register file, ALU,
